@@ -19,4 +19,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+Models.DatabaseModel.CreateTable();
+
 app.Run();
